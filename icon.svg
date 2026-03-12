@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- White rounded background -->
+  <rect width="512" height="512" rx="112" fill="white"/>
+
+  <!-- Counter-clockwise arrow circle -->
+  <path d="M256 120
+           A136 136 0 1 0 392 256"
+        fill="none" stroke="#E83A6E" stroke-width="28" stroke-linecap="round"/>
+
+  <!-- Arrow tip pointing right at top of arc -->
+  <polygon points="256,156 296,120 256,84" fill="#E83A6E"/>
+
+  <!-- Clock hour hand (mostly up, slightly right) -->
+  <line x1="256" y1="256" x2="268" y2="180"
+        stroke="#E83A6E" stroke-width="24" stroke-linecap="round"/>
+
+  <!-- Clock minute hand (mostly right, slightly up) -->
+  <line x1="256" y1="256" x2="328" y2="244"
+        stroke="#E83A6E" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="14" fill="#E83A6E"/>
+</svg>
